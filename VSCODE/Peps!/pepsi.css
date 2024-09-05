@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./pepsy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    height: 50px;
+    background-color: rgb(36, 92, 141);
+}
+    
+
+.logo{
+    color: white;
+    font-family: fantasy;
+    font-size: xx-large;
+    margin-top: -20px;
+}
+.logo span{
+    color: red;
+}
+.logo:hover{
+    color: black;
+}
+.logo span:hover{
+    color: black;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: -10px;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.links ul li{
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: monospace;
+}
+.links ul li a:hover{
+    color:red
+}
+
+.links button{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid red;
+    transition: .4s;
+    background-color: red;
+    color: white;
+    margin-top: -4px;
+}
+
+.links button:hover{
+    transform: scale(1.3);
+}

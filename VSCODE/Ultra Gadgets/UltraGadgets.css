@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./pexels-chuck-3587478.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 2000px;
+   
+}
+
+.main{
+    background-color: hwb(193 5% 68%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+    height: 50px;
+}
+
+.logo a img{
+    width: 110px;
+    margin-top: -55px;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: -8px;
+}
+
+.links ul li{
+    list-style:none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;    
+}
+
+.links ul li a:hover{
+    color: black;
+}
+
+.links button{
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    border: 2px solid;
+    color: white;
+    background-color: hwb(193 5% 68%);
+    transition: .4s;
+    margin-top: -7px;
+}
+
+.links button:hover{
+    transform: scale(1.3);
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: linear-gradient(rgb(34, 31, 31), transparent), url(./cole.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.main{
+    padding: 30px;
+
+}
+
+.logo{
+    color: white;
+}
+.logo span{
+    color: red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}   
+
+nav ul li a:hover{
+    color: red;   
+}
+
+nav button{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    transition: .4s;
+}
+
+nav button:hover{
+    transform: scale(1.3);
+}
